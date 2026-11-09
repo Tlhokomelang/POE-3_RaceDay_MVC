@@ -48,7 +48,7 @@ Main Features
 * Docker
 * GitHub Actions
 
-System Architecture
+## System Architecture
 
 The RaceDay MVC applications communicates with the Part-2 API to retrieve and manage information.
 
@@ -60,7 +60,7 @@ The application is as follows the Model-View-Controller (MVC) architecture:
 * Views: Display the user interface.
 * Controllers: Handle users requests and communicate with the API.
 
-Azure Blob Storage Integration
+## Azure Blob Storage Integration
 
 Azure Blob Storage is a integrated through the Part-2 API.
 
@@ -70,14 +70,14 @@ The MVC application send images to upload to the Part-2 API. The API handles the
 
 How to Run the Application Locally
 
-Requirements
+## Requirements
 
 * Visual Studio 2022 or compatible development environment.
 * .NET SDK required by the project.
 * Access to the Part 2 API.
 * SQL Server and required database configuration for the API.
 
-Steps
+## Steps
 
 1. Clone or download the GitHub repository.
 2. Open the MVC project in Visual Studio.
@@ -87,13 +87,13 @@ Steps
 6. Run the MVC application.
 7. Open the application using the local URL provided by Visual Studio .
 
-GitHub and CI/CD
+## GitHub and CI/CD
 
 GitHub is used for source code management and version control.
 
 GitHub Actions is used to automate the build process.
 
-The project includes:
+## The project includes:
 
 * Source code for the MVC applications.
 * Dockerfile for containerisation.
@@ -112,7 +112,7 @@ The applications provide a consistent interface across its pages.
 * The interface uses consistent fonts, colours and spacing.
 * Bootstrap is used to support responsive layouts.
 
-Conclusion
+## Conclusion
 
 The RaceDay Part-3 project brings the different components of the RaceDay platform together through an ASP.NET Core MVC application.
 
