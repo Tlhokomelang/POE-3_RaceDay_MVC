@@ -85,7 +85,7 @@ Steps
 4. Check that the API base URL is correctly configured.
 5. Build the solution.
 6. Run the MVC application.
-7. Open the application using the local URL provided by Visual .
+7. Open the application using the local URL provided by Visual Studio .
 
 GitHub and CI/CD
 
@@ -95,16 +95,16 @@ GitHub Actions is used to automate the build process.
 
 The project includes:
 
-* Source code for the MVC application.
+* Source code for the MVC applications.
 * Dockerfile for containerisation.
 * GitHub Actions workflow.
 * README documentation.
 
-A minimum of 20 meaningful commits is required for Part 3.
+A minimum of 20-meaningful commits is required for Part 3.
 
 Error Handling and User Interface
 
-The application provide a consistent interface across its pages.
+The applications provide a consistent interface across its pages.
 
 * Navigation is based on user roles.
 * Enrolment statuses are displayed using different colours.
@@ -114,8 +114,8 @@ The application provide a consistent interface across its pages.
 
 Conclusion
 
-The RaceDay Part 3 project brings the different components of the RaceDay platform together through an ASP.NET Core MVC application.
+The RaceDay Part-3 project brings the different components of the RaceDay platform together through an ASP.NET Core MVC application.
 
-It provides separate interfaces for Organisers and Participants, integrates with the Part 2 API, supports Azure Blob Storage for image uploads, and uses Docker for containerisation.
+It provides separate interfaces for Organisers and Participants, integrates with the Part-2 API, support Azure Blob Storages for image uploads, and uses Docker for containerisation.
 
 GitHub and GitHub Actions are used to manage the source code and automate the build process.
