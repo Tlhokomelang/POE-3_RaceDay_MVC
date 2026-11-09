@@ -6,7 +6,7 @@ RaceDay it's a web-based event managements system designed to manage running eve
 
 The system provides main two types of users: Organiser and Participants. Each user can access to different types features depending on each role.
 
-Main Features
+ The Main Features
 
 1. ## Authentications and Navigations
 
@@ -52,7 +52,7 @@ Main Features
 
 The RaceDay MVC applications communicates with the Part-2 API to retrieve and manage information.
 
-The MVC application does not directly access the database. All data operations are handled through the Part-2 API.
+The MVC project application does not directly access the database. All data operations are handled through the Part-2 API.
 
 The application is as follows the Model-View-Controller (MVC) architecture:
 
@@ -64,15 +64,15 @@ The application is as follows the Model-View-Controller (MVC) architecture:
 
 Azure Blob Storage is a integrated through the Part-2 API.
 
-Organisers that can upload event banner images, while Participants can upload profile pictures.
+Organisers that can upload event banner images, while Participants they are able to upload their profile pictures.
 
-The MVC application send images to upload to the Part-2 API. The API handles the storage of images in Azure Blob Storage and it makes them available for display in the application storrage.
+The MVC application sends images to upload to the Part-2 API. The API handles the storage of images in Azure Blob Storage and  makes them available for display in the application storage.
 
 How to Run the Application Locally
 
 ## Requirements
 
-* Visual Studio 2022 or compatible development environment.
+* Visual Studio 2022 or compatible development environments.
 * .NET SDK required by the project.
 * Access to the Part 2 API.
 * SQL Server and required database configuration for the API.
@@ -102,7 +102,7 @@ GitHub Actions is used to automate the build process.
 
 A minimum of 20-meaningful commits is required for Part 3.
 
-Error Handling and User Interface
+## The Error Handling and User Interface
 
 The applications provide a consistent interface across its pages.
 
