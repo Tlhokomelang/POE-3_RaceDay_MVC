@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-RaceDay it's a web-based event managements system designed to manage running events. Part-3 MVC focuses on developing an ASP.NET Core MVC web application that connects to the Part 2 API.
+RaceDay it's a web-based event managements system designed to manage running events. Part-3 MVC focuses on developing an ASP.NET Core MVC web application that connects to the Part-2 API.
 
 The system provides main two types of users: Organiser and Participants. Each user can access to different types features depending on each role.
 
@@ -11,10 +11,10 @@ The system provides main two types of users: Organiser and Participants. Each us
 1. ## Authentications and Navigations
 
 * Users can register and log-in.
-* The system maintains the user’s authenticated session.
+* The system maintains the user’s authenticated sessions.
 * Role-based navigation is provided for Organiser and Participant.
 * Users can log out securely.
-* Unauthenticated users cannot access protected pages.
+* Unauthenticated users they cannot access protected pages.
 
 1. ## Organisers Interface
 
@@ -66,7 +66,7 @@ Azure Blob Storage is a integrated through the Part-2 API.
 
 Organisers that can upload event banner images, while Participants they are able to upload their profile pictures.
 
-The MVC application sends images to upload to the Part-2 API. The API handles the storage of images in Azure Blob Storage and  makes them available for display in the application storage.
+The MVC application sends images to upload to the Part-2 API. The API handles the storage of images in Azure Blob Storage and makes them available for display in the application storage.
 
 How to Run the Application Locally
 
@@ -100,7 +100,7 @@ GitHub Actions is used to automate the build process.
 * GitHub Actions workflow.
 * README documentation.
 
-A minimum of 20-meaningful commits is required for Part 3.
+
 
 ## The Error Handling and User Interface
 
