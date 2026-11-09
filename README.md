@@ -28,10 +28,10 @@ The system provides main two types of users: Organiser and Participants. Each us
 
 1. ## Participant Interface
 
-* View upcoming events.
-* Filter available events.
+* Their are able to view upcoming events.
+* They also able to filter available events.
 * View event information and categories.
-* Enrol in events and select categories.
+* They can enroll in events and able to select categories.
 * View personal enrolments and enrolment statuses.
 * View personal race results.
 * Update personal information and profile pictures.
