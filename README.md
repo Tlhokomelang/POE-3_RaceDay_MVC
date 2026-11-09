@@ -6,7 +6,7 @@ RaceDay it's a web-based event managements system designed to manage running eve
 
 The system provides main two types of users: Organiser and Participants. Each user can access to different types features depending on each role.
 
- The Main Features
+ These Main Features contains the following:
 
 1. ## Authentications and Navigations
 
@@ -19,11 +19,11 @@ The system provides main two types of users: Organiser and Participants. Each us
 1. ## Organisers Interface
 
 * Dashboard displaying the event information and enrolments summaries.
-* Create, edit and delete events.
+* Create, edit and delete the events.
 * Manage event categories, including age and distance categories.
-* View participants that that  enrolled in specific events.
+* View participants that  enrolled in specific events.
 * View of enrolment for statuses.
-* Capture participants finishing time and position.
+* Capture participants finishing time and position and record results.
 * Upload event banner images.
 
 1. ## Participant Interface
