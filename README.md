@@ -23,7 +23,7 @@ The system provides main two types of users: Organiser and Participants. Each us
 * Manage event categories, including age and distance categories.
 * View participants that  enrolled in specific events.
 * View of enrolment for statuses.
-* Capture participants finishing time and position and record results.
+* Capture participant finishing time and positions and record results.
 * Upload event banner images.
 
 1. ## Participant Interface
@@ -50,11 +50,11 @@ The system provides main two types of users: Organiser and Participants. Each us
 
 ## System Architecture
 
-The RaceDay MVC applications communicates with the Part-2 API to retrieve and manage information.
+The RaceDay MVC pjoject applications communicates with the Part-2 API so that it can retrieve and manage information.
 
 The MVC project application does not directly access the database. All data operations are handled through the Part-2 API.
 
-The application is as follows the Model-View-Controller (MVC) architecture:
+The application is as follows the Model-View-Controller (MVC project) architecture:
 
 * Models: Represents the application data.
 * Views: Display the user interface.
@@ -104,16 +104,16 @@ GitHub Actions is used to automate the build process.
 
 The applications provide a consistent interface across its pages.
 
-* Navigation is based on user roles.
-* Enrolment statuses are displayed using different colours.
-* Invalid inputs are handled appropriately.
-* The interface uses consistent fonts, colours and spacing.
+* The Navigation is based on user roles.
+* The Enrolment statuses are displayed using different colours.
+* The Invalid inputs are also handled appropriately.
+* The interface they use consistent fonts, colours and spacing.
 * Bootstrap is used to support responsive layouts.
 
 ## Conclusion
 
 The RaceDay Part-3 project brings the different components of the RaceDay platform together through an ASP.NET Core MVC application.
 
-It provides separate interfaces for Organisers and Participants, integrates with the Part-2 API, support Azure Blob Storages for image uploads, and uses Docker for containerisation.
+It provides separate interfaces for Organisers and Participants, integrates with the Part-2 API, it also support Azure Blob Storages for image uploads, and uses Docker for container.
 
 GitHub and GitHub Actions are used to manage the source code and automate the build process.
