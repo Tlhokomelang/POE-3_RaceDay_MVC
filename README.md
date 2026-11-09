@@ -10,7 +10,7 @@ The system provides main two types of users: Organiser and Participants. Each us
 
 1. ## Authentications and Navigations
 
-* Users can register and log-in.
+* Users can register and using log-in details.
 * The system maintains the user’s authenticated sessions.
 * Role-based navigation is provided for Organiser and Participant.
 * Users can log out securely.
@@ -23,7 +23,7 @@ The system provides main two types of users: Organiser and Participants. Each us
 * Manage event categories, including age and distance categories.
 * View participants that  enrolled in specific events.
 * View of enrolment for statuses.
-* Capture participant finishing time and positions and record results.
+* Capture participants finishing time and positions and record results.
 * Upload event banner images.
 
 1. ## Participant Interface
