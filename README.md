@@ -4,7 +4,7 @@
 
 RaceDay it's a web-based event management system designed to manage running events. Part-3 MVC focuses on developing an ASP.NET Core MVC web application that connects to the Part 2 API.
 
-The system provides two types of users: Organiser and Participant. Each user has access to different features depending on their role.
+The system provides two types of users: Organisers and Participants. Each user has access to different features depending on their role.
 
 Main Features
 
@@ -36,7 +36,7 @@ Main Features
 * View personal race results.
 * Update personal information and profile pictures.
 
-Technologies Used
+Technologies that is Used
 
 * C#
 * ASP.NET Core MVC
@@ -50,17 +50,17 @@ Technologies Used
 
 System Architecture
 
-The RaceDay MVC application communicates with the Part 2 API to retrieve and manage information.
+The RaceDay MVC applications communicates with the Part-2 API to retrieve and manage information.
 
-The MVC application does not directly access the database. All data operations are handled through the Part 2 API.
+The MVC application does not directly access the database. All data operations are handled through the Part-2 API.
 
-The application follows the Model-View-Controller (MVC) architecture:
+The application is as follows the Model-View-Controller (MVC) architecture:
 
 * Models: Represent application data.
 * Views: Display the user interface.
 * Controllers: Handle user requests and communicate with the API.
 
-Azure Blob Storage Integration
+Azure Blob Storage Integrations
 
 Azure Blob Storage is integrated through the Part 2 API.
 
