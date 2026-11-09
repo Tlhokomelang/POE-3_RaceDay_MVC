@@ -10,23 +10,23 @@ Main Features
 
 1. Authentications and Navigations
 
-* Users can register and log in.
+* Users can register and log-in.
 * The system maintains the user’s authenticated session.
-* Role-based navigation is provided for Organisers and Participants.
+* Role-based navigation is provided for Organiser and Participant.
 * Users can log out securely.
 * Unauthenticated users cannot access protected pages.
 
 1. Organiser Interface
 
-* Dashboard displaying event information and enrolment summaries.
+* Dashboard displaying the event information and enrolments summaries.
 * Create, edit and delete events.
 * Manage event categories, including age and distance categories.
 * View participants enrolled in specific events.
 * View enrolment statuses.
-* Capture participants’ finishing times and positions.
+* Capture participants’ finishing time and position.
 * Upload event banner images.
 
-1. Participant Interface
+1. ##Participant Interface
 
 * View upcoming events.
 * Filter available events.
@@ -36,7 +36,7 @@ Main Features
 * View personal race results.
 * Update personal information and profile pictures.
 
-Technologies that is Used
+##Technologies that is Used
 
 * C#
 * ASP.NET Core MVC
