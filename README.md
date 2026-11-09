@@ -8,7 +8,7 @@ The system provides two types of users: Organisers and Participants. Each user h
 
 Main Features
 
-1. Authentications and Navigations
+1. ## Authentications and Navigations
 
 * Users can register and log-in.
 * The system maintains the user’s authenticated session.
@@ -16,17 +16,17 @@ Main Features
 * Users can log out securely.
 * Unauthenticated users cannot access protected pages.
 
-1. Organiser Interface
+1. ## Organisers Interface
 
 * Dashboard displaying the event information and enrolments summaries.
 * Create, edit and delete events.
 * Manage event categories, including age and distance categories.
-* View participants enrolled in specific events.
-* View enrolment statuses.
-* Capture participants’ finishing time and position.
+* View participants that that  enrolled in specific events.
+* View of enrolment for statuses.
+* Capture participants finishing time and position.
 * Upload event banner images.
 
-1. ##Participant Interface
+1. ## Participant Interface
 
 * View upcoming events.
 * Filter available events.
@@ -36,7 +36,7 @@ Main Features
 * View personal race results.
 * Update personal information and profile pictures.
 
-##Technologies that is Used
+## Technologies that is Used
 
 * C#
 * ASP.NET Core MVC
@@ -48,7 +48,7 @@ Main Features
 * Docker
 * GitHub Actions
 
-System Architecture
+Systems Architectures
 
 The RaceDay MVC applications communicates with the Part-2 API to retrieve and manage information.
 
@@ -62,11 +62,11 @@ The application is as follows the Model-View-Controller (MVC) architecture:
 
 Azure Blob Storage Integrations
 
-Azure Blob Storage is integrated through the Part 2 API.
+Azure Blob Storage is a integrated through the Part-2 API.
 
-Organisers can upload event banner images, while Participants can upload profile pictures.
+Organiser that can upload event banner images, while Participants can upload profile pictures.
 
-The MVC application sends image uploads to the Part 2 API. The API handles the storage of images in Azure Blob Storage and makes them available for display in the application.
+The MVC application send images to upload to the Part-2 API. The API handles the storage of images in Azure Blob Storage and it makes them available for display in the application storrage.
 
 How to Run the Application Locally
 
@@ -104,7 +104,7 @@ A minimum of 20 meaningful commits is required for Part 3.
 
 Error Handling and User Interface
 
-The application provides a consistent interface across its pages.
+The application provide a consistent interface across its pages.
 
 * Navigation is based on user roles.
 * Enrolment statuses are displayed using different colours.
