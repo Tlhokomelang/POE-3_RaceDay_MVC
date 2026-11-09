@@ -1,6 +1,6 @@
 ## RaceDay – Part 3
 
-Project Overview
+## Project Overview
 
 RaceDay is a web-based event management system designed to manage running events. Part 3 focuses on developing an ASP.NET Core MVC web application that connects to the Part 2 API.
 
