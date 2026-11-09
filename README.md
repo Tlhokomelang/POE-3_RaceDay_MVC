@@ -52,7 +52,7 @@ The system provides main two types of users: Organiser and Participants. Each us
 
 The RaceDay MVC pjoject applications communicates with the Part-2 API so that it can retrieve and manage information.
 
-The MVC project application does not directly access the database. All data operations are handled through the Part-2 API.
+The MVC project application does not directly access the database. All the data operations are handled through the Part-2 API.
 
 The application is as follows the Model-View-Controller (MVC project) architecture:
 
@@ -64,7 +64,7 @@ The application is as follows the Model-View-Controller (MVC project) architectu
 
 Azure Blob Storage is a integrated through the Part-2 API.
 
-Organisers that can upload event banner images, while Participants they are able to upload their profile pictures.
+The Organisers that can upload their event banner images, while Participants they are able to upload their profile pictures.
 
 The MVC application sends images to upload to the Part-2 API. The API handles the storage of images in Azure Blob Storage and makes them available for display in the application storage.
 
