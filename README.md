@@ -31,10 +31,10 @@ The system provides main two types of users: Organiser and Participants. Each us
 * Their are able to view upcoming events.
 * They also able to filter available events.
 * View event information and categories.
-* They can enroll in events and able to select categories.
-* View personal enrolments and enrolment statuses.
+* They are able to enroll in events and able to select categories.
+* View personal enrolments and enrolment status.
 * View personal race results.
-* Update personal information and profile pictures.
+* They can update personal information and profile pictures.
 
 ## Technologies that is Used
 
@@ -56,7 +56,7 @@ The MVC project application does not directly access the database. All data oper
 
 The application is as follows the Model-View-Controller (MVC) architecture:
 
-* Models: Represent application data.
+* Models: Represents the application data.
 * Views: Display the user interface.
 * Controllers: Handle users requests and communicate with the API.
 
@@ -79,7 +79,7 @@ How to Run the Application Locally
 
 ## Steps
 
-1. Clone or download the GitHub repository.
+1. Clone or downloaded the GitHub repository.
 2. Open the MVC project in Visual Studio.
 3. Ensure the Part 2 API is running.
 4. Check that the API base URL is correctly configured.
@@ -99,8 +99,6 @@ GitHub Actions is used to automate the build process.
 * Dockerfile for containerisation.
 * GitHub Actions workflow.
 * README documentation.
-
-
 
 ## The Error Handling and User Interface
 
